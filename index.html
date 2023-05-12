@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h2>EMI Calculator</h2>
+            <div class="input-group">
+                <div class="input">
+                    <input type="text" id="loan-amount" placeholder="Loan Amount(Rs.)">
+                </div>
+                <div class="input">
+                    <input type="text" id="loan-tenure" placeholder="Loan Tenure(Year.)">
+                </div>
+                <div class="input">
+                    <input type="text" id="loan-interest" placeholder="Interest Rate(%)">
+                </div>
+            </div>
+            <div class="button">
+                <button id="calcbtn" onclick="calculate()">Calculate</button>
+            </div>
+            <p class="error">this is error</p>
+            <div class="result">
+                <canvas id="loanChart"></canvas>
+                <ul>
+                    <li>Monthly Loan EMI: <span id="loanemi"></span></li>
+                    <li>Principle Amount: <span id="loanprinciple"></span></li>
+                    <li>Loan On Interest: <span id="loaninterest"></span></li>
+                    <li>Total Amount To Be Paid: <span id="loantotal"></span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>

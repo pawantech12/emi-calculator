@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #3598DB;
+    font-size: 1.2rem;
+    font-family: 'Poppins',sans-serif;
+}
+.main{
+    width: 350px;
+    background-color: #fff;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+h2{
+    text-align: center;
+    font-weight: 600;
+}
+.input{
+    text-align: center;
+}
+.main input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    outline: none;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: 10px 10px;
+}.button{
+    text-align: center;
+}
+.main button{
+    border: none;
+    background-color: #3598DB;
+    border-radius: 5px;
+    padding: 15px 15px;
+    color: #fff;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    width: 200px;
+    cursor: pointer;
+}
+.error{
+    text-align: center;
+    background-color: #fedfe1;
+    color: #cd4243;
+    margin-top: 1rem;
+    padding: 15px 0px;
+    border-radius: 5px;
+    display: none;
+}
+.result{
+    display: none;
+}
+#loanChart{
+    width: 240px!important;
+    height: 240px!important;
+    margin: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+ul{
+    background-color: #d6f0fd;
+    color: #44bef4;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+ul li{
+    list-style: none;
+}
