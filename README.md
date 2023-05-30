@@ -29,10 +29,8 @@ Before you begin, ensure you have met the following requirements:
 * For Using `Chart.js` in your project Copy below script tag and place it in your project Body:
 
 ```
-
 <!-- JavaScript ChartJS Library CDN -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
 ```
 
 ### Project Contain
